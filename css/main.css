@@ -1,0 +1,214 @@
+@font-face {
+  font-display: swap;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/hind-madurai-v11-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/hind-madurai-v11-latin-600.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/hind-madurai-v11-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fredoka-v14-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v32-latin-500.woff2") format("woff2");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color:#F2CEDA;
+    --item-color: #D23166;
+}
+body{
+    background-color: rgb(242, 206, 218, 0.3);
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+    padding: 20px 0;
+}
+/* Site header start */
+.site-header {
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-item-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.site-header-a {
+    color: black;
+    transition: all 0.4s;
+}
+.site-header-a:hover{
+    color: var(--item-color);
+}
+.header-btn {
+    background-color: var(--item-color);
+    padding: 14px 50px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    border-radius: 5px;
+    color: white;
+}
+.header-btn:hover{
+    border-color: var(--item-color);
+    background-color: white;
+    color: var(--item-color);
+}
+/* Site header end */
+/* Feel section start */
+.feel-section {
+    align-items: center;
+}
+.feel-item-wrapper {
+    display: flex;
+    align-items: center;
+}
+.feel-item-wrapper>img{
+    display: inline-block;
+}
+.feel-wrapper>h3{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    margin-bottom: 6px;
+}
+.feel-wrapper>h2{
+    width: 665px;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 55.33px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.feel-wrapper>h2>strong{
+    color: var(--item-color);
+    font-family: "Fredoka One", sans-serif;
+    font-size: 55.33px;
+    font-weight: bold;
+}
+.feel-wrapper>p:last-of-type{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 523px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+.feel-item-wrapper>img{
+    padding-right: 50px;
+}
+.feel-section-btn {
+    padding: 16px 50px;
+    color: white;
+    background-color: var(--item-color);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+.feel-section-btn:hover{
+    border-color: var(--item-color);
+    background-color: white;
+    color: var(--item-color);
+}
+/* Feel section end */
+/* Feel section start  */
+.fast-section {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feel-list-wrapper {
+}
+.feel-list {
+    display: flex;
+    text-align: center;
+    text-align: center;
+}
+.feel-item>img{
+    margin-top: 33px;
+}
+.feel-item {
+    margin-right: 39px;
+    border-radius: 5px;
+    border: 1px solid #00000008;
+    transition: all 0.5s;
+}
+.feel-item>p{
+    width: 91%;
+    margin-bottom: 27px;
+}
+.feel-item:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+}
+/* Feel section end  */
+/* Sugar section start */
+.sugar {
+}
+.sugar-item-wrapper {
+    display: flex;
+    align-items: center;
+}
+.sugar-btn{
+    padding: 15px 42px;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--item-color);
+}
+.sugar-wrapper {
+}
+.sugar-wrapper>h2{
+    width: 300px;
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;  
+}
+.sugar-wrapper>p{
+    width: 442px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;  
+    margin-bottom: 35px;
+}
+/* Sugar section end */
