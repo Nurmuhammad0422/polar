@@ -1,0 +1,30 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-item-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.site-header-a {
+    color: black;
+    transition: all 0.4s;
+}
+.site-header-a:hover{
+    color: var(--item-color);
+}
+.header-btn {
+    background-color: var(--item-color);
+    padding: 14px 50px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    border-radius: 5px;
+    color: white;
+}
+.header-btn:hover{
+    border-color: var(--item-color);
+    background-color: white;
+    color: var(--item-color);
+}

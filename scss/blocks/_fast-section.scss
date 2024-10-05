@@ -1,0 +1,26 @@
+.fast-section {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feel-list {
+    display: flex;
+    text-align: center;
+    text-align: center;
+}
+.feel-item>img{
+    margin-top: 33px;
+}
+.feel-item {
+    margin-right: 39px;
+    border-radius: 5px;
+    border: 1px solid #00000008;
+    transition: all 0.5s;
+}
+.feel-item>p{
+    width: 91%;
+    margin-bottom: 27px;
+}
+.feel-item:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+}

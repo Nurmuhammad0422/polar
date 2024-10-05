@@ -1,0 +1,56 @@
+.feel-section {
+    align-items: center;
+}
+.feel-item-wrapper {
+    display: flex;
+    align-items: center;
+}
+.feel-item-wrapper>img{
+    display: inline-block;
+}
+.feel-wrapper>h3{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    margin-bottom: 6px;
+}
+.feel-wrapper>h2{
+    width: 665px;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 55.33px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.feel-wrapper>h2>strong{
+    color: var(--item-color);
+    font-family: "Fredoka One", sans-serif;
+    font-size: 55.33px;
+    font-weight: bold;
+}
+.feel-wrapper>p:last-of-type{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 523px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+.feel-item-wrapper>img{
+    padding-right: 50px;
+}
+.feel-section-btn {
+    padding: 16px 50px;
+    color: white;
+    background-color: var(--item-color);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+.feel-section-btn:hover{
+    border-color: var(--item-color);
+    background-color: white;
+    color: var(--item-color);
+}
