@@ -1,0 +1,95 @@
+.site-footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-bottom: 114px;
+}
+.site-footer-wrapper>div>p{
+    width: 207px;
+    opacity: 0.7;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.76px;
+    letter-spacing: 0.01em;
+    margin-bottom: 25px;
+}
+.site-footer-wrapper>div>h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    margin-bottom: 8px;
+}
+.site-footer-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.form-wrapper2{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.form-wrapper3{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.form-wrapper2>a:first-of-type{
+    color: white;
+}
+.form-wrapper2>a:hover{
+    color: #D23166;
+    opacity: 1;
+}
+.form-wrapper3>a:hover{
+    color: #D23166;
+    opacity: 1;
+}
+.form-wrapper2>a+a{
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;    
+    color: white;
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+.form-wrapper3>a{
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+.footer-form-wrapper{
+    margin-top: 80px;
+}
+.label>input{
+    width: 260px;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #D23166;
+    padding: 20px 10px 20px 32px;
+    margin-bottom: 16px;
+}
+.footer-btn{
+    position: absolute;
+    width: 134px;
+    height: 58px;
+    background-color: #D23166;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    cursor: pointer;
+    padding: 16px 18px 16px;
+}
