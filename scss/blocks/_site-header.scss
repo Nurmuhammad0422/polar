@@ -1,3 +1,11 @@
+.site-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgb(242, 206, 218);
+}
 .header-wrapper {
     display: flex;
     align-items: center;
@@ -6,7 +14,7 @@
 .header-item-wrapper {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 .site-header-a {
     color: black;
